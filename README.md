@@ -4,7 +4,7 @@
 
 ### [🚀 View Live Demo](https://cronenberg64.github.io/IVSurfaceExplorer/)
 
-![Static Surface](outputs/surface_static.png)
+![Static Surface](docs/assets/surface_static.png)
 
 ## Features
 
@@ -37,8 +37,9 @@ Where $\Delta s$ is spot shift, $\Delta\sigma$ is IV shift, $\Delta\beta$ is ske
 
 ```
 IVSurfaceExplorer/
-├── docs/                          # GitHub Pages source (index.html)
-├── src/
+    ├── docs/                          # GitHub Pages source (index.html)
+    │   └── assets/                    # Public images (static & GIF)
+    ├── src/
 │   ├── data.py                    # yfinance options fetching
 │   ├── bs.py                      # Black-Scholes pricing + IV inversion
 │   ├── surface.py                 # Surface fitting + deformations
@@ -50,8 +51,8 @@ IVSurfaceExplorer/
 └── outputs/
     ├── snapshot_amd_<date>.parquet
     ├── surface_amd_<date>.npz
-    ├── svi_params.png             # SVI parameter trajectories
-    └── surface_static.png         # Dashboard screenshot
+    ├── svi_params.png             # SVI parameter trajectories (tracked)
+    └── surface_static.png         # Dashboard screenshot (tracked)
 ```
 
 ## Setup & Reproducibility

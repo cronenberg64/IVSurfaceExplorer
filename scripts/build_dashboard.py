@@ -53,7 +53,7 @@ def main():
             fig_svi.update_layout(paper_bgcolor='#0d1117', plot_bgcolor='#0d1117')
             
             # Save SVI plot (static)
-            svi_plot_path = 'outputs/svi_params.png'
+            svi_plot_path = 'docs/assets/svi_params.png'
             try:
                 # Requires kaleido
                 fig_svi.write_image(svi_plot_path)
