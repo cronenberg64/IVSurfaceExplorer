@@ -1,0 +1,7 @@
+yfinance
+numpy
+pandas
+scipy
+plotly
+pyarrow
+kaleido

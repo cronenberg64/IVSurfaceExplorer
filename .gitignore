@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+outputs/*.parquet
+outputs/*.npz
+outputs/*.png
+outputs/*.gif
+.DS_Store
